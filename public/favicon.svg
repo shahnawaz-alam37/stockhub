@@ -1,0 +1,12 @@
+<!-- save as public/favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+  <!-- background so the white stroke is visible on browser tabs -->
+  <rect width="24" height="24" rx="4" fill="#111827"/>
+  <!-- your original icon (converted from JSX to plain SVG attributes) -->
+  <path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+        fill="none"
+        stroke="#ffffff"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"/>
+</svg>
