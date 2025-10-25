@@ -17,7 +17,18 @@ export default function StockDashboard() {
     { id: 5, symbol: 'TSLA', company: 'Tesla Inc.', price: 242.18, change: '-1.67%', volume: '98.4M' },
     { id: 6, symbol: 'NVDA', company: 'NVIDIA Corp.', price: 495.22, change: '+5.43%', volume: '52.1M' },
     { id: 7, symbol: 'META', company: 'Meta Platforms Inc.', price: 489.74, change: '+2.89%', volume: '18.9M' },
-    { id: 8, symbol: 'JPM', company: 'JPMorgan Chase & Co.', price: 198.45, change: '+0.76%', volume: '12.4M' }
+    { id: 8, symbol: 'JPM', company: 'JPMorgan Chase & Co.', price: 198.45, change: '+0.76%', volume: '12.4M' },
+    { id: 9, symbol: 'NFLX', company: 'Netflix Inc.', price: 612.43, change: '+1.58%', volume: '14.7M' },
+    { id: 10, symbol: 'ORCL', company: 'Oracle Corp.', price: 115.29, change: '-0.72%', volume: '9.3M' },
+    { id: 11, symbol: 'INTC', company: 'Intel Corp.', price: 42.87, change: '+0.91%', volume: '33.5M' },
+    { id: 12, symbol: 'IBM', company: 'International Business Machines', price: 173.12, change: '+0.54%', volume: '6.8M' },
+    { id: 13, symbol: 'KO', company: 'Coca-Cola Co.', price: 59.23, change: '-0.36%', volume: '18.2M' },
+    { id: 14, symbol: 'PEP', company: 'PepsiCo Inc.', price: 167.48, change: '+0.27%', volume: '10.1M' },
+    { id: 15, symbol: 'WMT', company: 'Walmart Inc.', price: 159.84, change: '+1.09%', volume: '8.9M' },
+    { id: 16, symbol: 'BAC', company: 'Bank of America Corp.', price: 32.75, change: '-0.14%', volume: '52.9M' },
+    { id: 17, symbol: 'DIS', company: 'The Walt Disney Company', price: 91.43, change: '+2.41%', volume: '23.4M' },
+    { id: 18, symbol: 'ADBE', company: 'Adobe Inc.', price: 567.12, change: '-1.12%', volume: '4.9M' }
+
   ];
 
   useEffect(() => {
@@ -244,6 +255,19 @@ export default function StockDashboard() {
           </div>
         </div>
       </main>
+      <footer class="bg-gray-900 border border-gray-800">
+  <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <div class="sm:flex sm:items-center sm:justify-between">
+      <div class="flex justify-center text-teal-600 sm:justify-start">
+        <span class="text-lg font-bold">Stock Hub</span>
+      </div>
+
+      <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+        Copyright © 2025. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
     </div>
   );
 }
